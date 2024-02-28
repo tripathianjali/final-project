@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="25" passed="20" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-28T10:47:09 IST" name="Suite" finished-at="2024-02-28T10:49:17 IST" duration-ms="127256">
+    <groups>
+    </groups>
+    <test started-at="2024-02-28T10:47:09 IST" name="Test" finished-at="2024-02-28T10:49:17 IST" duration-ms="127256">
+      <class name="Testcase.TC_003Form">
+        <test-method signature="Schedule_DemoForm()[pri:14, instance:Testcase.TC_003Form@1ed6388a]" started-at="2024-02-28T10:48:01 IST" name="Schedule_DemoForm" finished-at="2024-02-28T10:48:07 IST" duration-ms="5799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Schedule_DemoForm -->
+        <test-method signature="get_Name()[pri:15, instance:Testcase.TC_003Form@1ed6388a]" started-at="2024-02-28T10:48:07 IST" name="get_Name" finished-at="2024-02-28T10:48:08 IST" duration-ms="1368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Name -->
+        <test-method signature="get_invalidEmail()[pri:16, instance:Testcase.TC_003Form@1ed6388a]" started-at="2024-02-28T10:48:09 IST" name="get_invalidEmail" finished-at="2024-02-28T10:48:10 IST" duration-ms="1119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_invalidEmail -->
+        <test-method signature="get_OrganizationSize()[pri:17, instance:Testcase.TC_003Form@1ed6388a]" started-at="2024-02-28T10:48:10 IST" name="get_OrganizationSize" finished-at="2024-02-28T10:48:11 IST" duration-ms="1161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_OrganizationSize -->
+        <test-method signature="get_IntrestedIn()[pri:18, instance:Testcase.TC_003Form@1ed6388a]" started-at="2024-02-28T10:48:12 IST" name="get_IntrestedIn" finished-at="2024-02-28T10:48:13 IST" duration-ms="1125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_IntrestedIn -->
+        <test-method signature="schedule_Demo()[pri:19, instance:Testcase.TC_003Form@1ed6388a]" started-at="2024-02-28T10:48:13 IST" name="schedule_Demo" finished-at="2024-02-28T10:48:14 IST" duration-ms="1117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- schedule_Demo -->
+        <test-method signature="get_ValidEmail()[pri:20, instance:Testcase.TC_003Form@1ed6388a]" started-at="2024-02-28T10:48:14 IST" name="get_ValidEmail" finished-at="2024-02-28T10:48:45 IST" duration-ms="30325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_ValidEmail -->
+        <test-method signature="get_Thankyou()[pri:21, instance:Testcase.TC_003Form@1ed6388a]" started-at="2024-02-28T10:48:45 IST" name="get_Thankyou" finished-at="2024-02-28T10:49:15 IST" duration-ms="30052" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//div[text()='THANK YOU'])"}
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f56090c717030839cb075d446d219a15, findElement {using=xpath, value=(//div[text()='THANK YOU'])}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Windows\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:59676}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59676/devtoo..., se:cdpVersion: 115.0.5790.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f56090c717030839cb075d446d219a15]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[text()='THANK YOU'])"}
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f56090c717030839cb075d446d219a15, findElement {using=xpath, value=(//div[text()='THANK YOU'])}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Windows\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:59676}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59676/devtoo..., se:cdpVersion: 115.0.5790.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f56090c717030839cb075d446d219a15
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy48.getText(Unknown Source)
+at pageObjects.HealthandWellness.Thankyou(HealthandWellness.java:116)
+at Testcase.TC_003Form.get_Thankyou(TC_003Form.java:74)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Thankyou -->
+      </class> <!-- Testcase.TC_003Form -->
+      <class name="Testcase.TC_001Doctor">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Testcase.TC_001Doctor@7db12bb6]" started-at="2024-02-28T10:47:10 IST" name="setup" finished-at="2024-02-28T10:47:17 IST" duration-ms="6954" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="click_LocationSearchBox()[pri:1, instance:Testcase.TC_001Doctor@7db12bb6]" started-at="2024-02-28T10:47:17 IST" name="click_LocationSearchBox" finished-at="2024-02-28T10:47:20 IST" duration-ms="3289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_LocationSearchBox -->
+        <test-method signature="Location()[pri:2, instance:Testcase.TC_001Doctor@7db12bb6]" started-at="2024-02-28T10:47:20 IST" name="Location" finished-at="2024-02-28T10:47:23 IST" duration-ms="2705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Location -->
+        <test-method signature="click_SearchDentist()[pri:3, instance:Testcase.TC_001Doctor@7db12bb6]" started-at="2024-02-28T10:47:23 IST" name="click_SearchDentist" finished-at="2024-02-28T10:47:28 IST" duration-ms="4285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_SearchDentist -->
+        <test-method signature="click_PatientStories()[pri:4, instance:Testcase.TC_001Doctor@7db12bb6]" started-at="2024-02-28T10:47:28 IST" name="click_PatientStories" finished-at="2024-02-28T10:47:33 IST" duration-ms="5258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_PatientStories -->
+        <test-method signature="click_Experience()[pri:5, instance:Testcase.TC_001Doctor@7db12bb6]" started-at="2024-02-28T10:47:34 IST" name="click_Experience" finished-at="2024-02-28T10:47:35 IST" duration-ms="1319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_Experience -->
+        <test-method signature="click_ToApplyFilter()[pri:6, instance:Testcase.TC_001Doctor@7db12bb6]" started-at="2024-02-28T10:47:37 IST" name="click_ToApplyFilter" finished-at="2024-02-28T10:47:38 IST" duration-ms="1121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_ToApplyFilter -->
+        <test-method signature="select_fees()[pri:7, instance:Testcase.TC_001Doctor@7db12bb6]" started-at="2024-02-28T10:47:39 IST" name="select_fees" finished-at="2024-02-28T10:47:40 IST" duration-ms="1106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_fees -->
+        <test-method signature="click_ToApplyFilter2()[pri:8, instance:Testcase.TC_001Doctor@7db12bb6]" started-at="2024-02-28T10:47:42 IST" name="click_ToApplyFilter2" finished-at="2024-02-28T10:47:43 IST" duration-ms="1145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_ToApplyFilter2 -->
+        <test-method signature="select_availability()[pri:9, instance:Testcase.TC_001Doctor@7db12bb6]" started-at="2024-02-28T10:47:43 IST" name="select_availability" finished-at="2024-02-28T10:47:44 IST" duration-ms="1111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_availability -->
+        <test-method signature="click_SortBy()[pri:10, instance:Testcase.TC_001Doctor@7db12bb6]" started-at="2024-02-28T10:47:46 IST" name="click_SortBy" finished-at="2024-02-28T10:47:49 IST" duration-ms="2704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_SortBy -->
+        <test-method signature="getDoctordetails()[pri:11, instance:Testcase.TC_001Doctor@7db12bb6]" started-at="2024-02-28T10:47:49 IST" name="getDoctordetails" finished-at="2024-02-28T10:47:53 IST" duration-ms="4392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDoctordetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testcase.TC_001Doctor@7db12bb6]" started-at="2024-02-28T10:49:16 IST" name="tearDown" finished-at="2024-02-28T10:49:17 IST" duration-ms="1104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testcase.TC_001Doctor -->
+      <class name="Testcase.TC_002Surgeries">
+        <test-method signature="PopularSurgery()[pri:12, instance:Testcase.TC_002Surgeries@942a29c]" started-at="2024-02-28T10:47:54 IST" name="PopularSurgery" finished-at="2024-02-28T10:47:56 IST" duration-ms="2355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PopularSurgery -->
+        <test-method signature="writeData()[pri:13, instance:Testcase.TC_002Surgeries@942a29c]" started-at="2024-02-28T10:47:56 IST" name="writeData" finished-at="2024-02-28T10:48:01 IST" duration-ms="4268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeData -->
+      </class> <!-- Testcase.TC_002Surgeries -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
